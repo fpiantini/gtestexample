@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fpiantini/gtestexample.svg?branch=main)](https://travis-ci.org/fpiantini/gtestexample)
+
 # gtestexample
 More complex example of a C++ project that uses gtest/gmock.
 
