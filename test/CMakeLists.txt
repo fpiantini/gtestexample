@@ -1,4 +1,3 @@
-
 include(CTest)
 
 # Add gtest/gmock support
