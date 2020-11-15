@@ -14,9 +14,11 @@ before_build:
     cd build
     cmake --version
     cmake ..
-    cmake -G .
 
 build:
+  cmd: |-
+    cmake --build .
+    cmake --build . --target test
   verbosity: normal
   parallel: true
 
